@@ -28,6 +28,6 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/yedan2099/NZSIMSDK.git", :tag => "v#{s.version}" }
 
 s.source_files  = "NZSIMSDK/*.{h,m}"
-s.ios.vendored_libraries = "NZSIMSDK/*.a",
+s.ios.vendored_libraries = "NZSIMSDK/*.a"
 
 end
